@@ -10,16 +10,13 @@ let skills = document.getElementById("skills")
 let file = document.getElementById("file")
 let input = document.getElementsByTagName("input")
 let themebuttons = document.getElementById("themebuttons")
-
-
-
 let container = document.querySelector(".container")
 let con2 = document.querySelector(".con2")
-
 let theme1 = document.querySelector(".theme1")
 let theme1data = document.querySelector(".theme1data")
-
 let changetheme=document.getElementById("changetheme")
+
+
 
 changetheme.addEventListener("click", () => {
 
@@ -87,9 +84,9 @@ document.getElementById("myform").addEventListener("submit", (event) => {
     if ((file.files[0])) {
         file2.src = URL.createObjectURL(file.files[0])
     } else { alert("please add a pic") }
-    // if (input[8].value) {
-    //     con2.style.display = "block"
-    // } else (console.log("please"))
+    if (input[8].value) {
+        con2.style.display = "block"
+    } else (console.log("please"))
 
 })
 

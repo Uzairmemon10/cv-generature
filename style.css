@@ -117,7 +117,7 @@ button {
   border-radius: 25px;
   margin-left: 10%;
   background-color: black;
-  /* display: none;  */
+  display: none; 
 }
 
 .theme1data img {

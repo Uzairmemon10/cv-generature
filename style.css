@@ -5,7 +5,39 @@
   /* background-color: black; */
 }
 
-.container {
+#themebuttons {
+  display: flex;
+
+}
+
+#changetheme {
+  width: 20%;
+  background-color: green;
+  color: white;
+  padding: 8px 0px;
+  text-transform: uppercase;
+  margin-left: 40%;
+  margin-bottom: 20px;
+  border-color: green;
+  border-radius: 5px;
+
+}
+
+button {
+  width: 20%;
+  background-color: green;
+  color: white;
+  padding: 8px 0px;
+  text-transform: uppercase;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-color: green;
+  border-radius: 5px;
+
+}
+
+.theme1 {
+  margin-top: 50px;
   width: 80%;
   display: grid;
   background-color: black;
@@ -13,9 +45,10 @@
   border-radius: 25px;
   margin-left: 10%;
   padding-bottom: 10px;
+
 }
 
-h1 {
+.theme1 h1 {
   margin-top: 50px;
   text-align: center;
   margin-bottom: 20px;
@@ -23,7 +56,7 @@ h1 {
   color: #efbb0e;
 }
 
-h2 {
+.theme1 h2 {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 10px;
@@ -32,7 +65,7 @@ h2 {
   font-style: italic;
 }
 
-input {
+.theme1 input {
   width: 80%;
   padding: 6px;
   margin: 3px;
@@ -43,28 +76,26 @@ input {
   border-radius: 10px;
   background: linear-gradient(to right, transparent, rgb(188, 168, 125));
 }
-input::placeholder{
+
+.theme1 input::placeholder {
   color: white;
 }
 
-#date {
+.theme1 #date {
   width: 20%;
   margin-left: 40%;
   text-align: center;
   /* color: white; */
 }
 
-#file {
+.theme1 #file {
   border: 2px solid #efbb0e;
   border-radius: 10px;
   background: linear-gradient(to right, transparent, rgb(188, 168, 125));
 }
 
-::placeholder {
-  color: black;
-}
 
-button {
+#cv {
   width: 20%;
   background-color: green;
   color: white;
@@ -77,7 +108,8 @@ button {
 
 }
 
-#con2 {
+
+.theme1data {
   margin-top: 30px;
   width: 80%;
   background-color: white;
@@ -85,29 +117,340 @@ button {
   border-radius: 25px;
   margin-left: 10%;
   background-color: black;
-  display: none; 
+  /* display: none;  */
 }
 
-img {
+.theme1data img {
   margin-top: 30px;
   height: 200px;
   width: 200px;
-  border: 2px solid #efbb0e;
+  border: 20px solid #efbb0e;
+  border-radius: 50%;
+  margin-left: 0%;
+}
+
+.theme1data .imgandname {
+  display: flex;
+  justify-content: space-around;
+}
+
+.theme1data #name2 {
+  font-size: 80px;
+  color: #efbb0e;
+  margin-top: 10%;
+  text-transform: uppercase;
+  font-family: 'loserboi grunge', sans-serif;
+  /* font-family: 'Jelly July Shiny', sans-serif; */
+                                                
+                                                
+}
+.theme1data .forcontact h3{
+ color: black;
+ text-align: center;
+ background-color:#efbb0e;
+ text-transform: uppercase;
+ width: 40%;
+ margin-left: 0%;
+ font-size: 30px; 
+ margin-top: 20px;
+}
+.theme1data h5 {
+  text-transform: uppercase;
+  margin-left: 0%;
+  padding: 2px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: #efbb0e;
+
+}
+.theme1data .foreducation h3{
+  color: black;
+  text-align: center;
+  background-color:#efbb0e;
+  text-transform: uppercase;
+  width: 40%;
+  margin-left: 0%;
+  font-size: 30px; 
+  margin-top: 20px;
+ }
+ 
+ .theme1data .forskills h3{
+  color: black;
+  background-color:#efbb0e;
+  text-transform: uppercase;
+  width: 40%;
+  margin-left: 60%;
+  font-size: 30px; 
+  margin-top: 20px;
+  
+ }
+ .theme1data .forskills span{
+margin-left: 20px; 
+}
+ .theme1data .forskills h5{
+margin-left: 60%;
+margin-bottom: 3%; 
+}
+ .theme1data .forbirth h3{
+  color: black;
+  background-color:#efbb0e;
+  text-transform: uppercase;
+  width: 40%;
+  margin-left: 60%;
+  font-size: 30px; 
+  margin-top: 20px;
+ }
+ .theme1data .forbirth span{
+  margin-left:20px ;
+ }
+ .theme1data .forbirth h5{
+margin-left: 60%; 
+}
+
+
+.theme1data span {
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme22 {
+  width: 80%;
+  display: grid;
+  background-color: red;
+  border: 4px solid black;
+  border-radius: 25px;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+
+.theme22 h1 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.theme22 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.theme22 input {
+  width: 80%;
+  padding: 6px;
+  margin: 3px;
+  text-transform: uppercase;
+  margin-left: 10%;
+  color: #efbb0e;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: linear-gradient(to right, transparent, rgb(239, 238, 235));
+}
+
+.theme22 input::placeholder {
+  color: black;
+}
+
+.theme22 #date {
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+  color: black;
+}
+
+.theme22 #file {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  background: linear-gradient(to right, transparent, rgb(234, 233, 231));
+}
+
+
+
+.theme2data {
+  margin-top: 30px;
+  width: 80%;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-left: 10%;
+  background-color: red;
+  display: none;
+}
+
+.theme2data img {
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
   border-radius: 50%;
   margin-left: 40%;
 }
 
-h5 {
+.theme2data h5 {
   text-transform: uppercase;
   margin-left: 10%;
   padding: 2px;
   font-size: 20px;
   margin-top: 30px;
-  color: #efbb0e;
- 
+  color: black;
+
 }
 
-span {
-  color:white;
-  
+.theme2data span {
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.theme33 {
+  width: 80%;
+  display: grid;
+  background-color: rgb(117, 13, 228);
+  border: 4px solid rgb(219, 61, 8);
+  border-radius: 25px;
+  margin-left: 10%;
+  padding-bottom: 10px;
+}
+
+.theme33 h1 {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: rgb(219, 61, 8);
+}
+
+.theme33 h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.theme33 input {
+  width: 80%;
+  padding: 6px;
+  margin: 3px;
+  text-transform: uppercase;
+  margin-left: 10%;
+  color: rgb(219, 61, 8);
+  border: 2px solid rgb(219, 61, 8);
+  border-radius: 10px;
+  background: linear-gradient(to left, transparent, gray, rgb(219, 61, 8));
+}
+
+.theme33 input::placeholder {
+  color: purple;
+}
+
+.theme33 #date {
+  width: 20%;
+  margin-left: 40%;
+  text-align: center;
+  color: purple;
+}
+
+.theme33 #file {
+  border: 2px solid rgb(219, 61, 8);
+  border-radius: 10px;
+  color: purple;
+  background: linear-gradient(to left, transparent, gray, rgb(219, 61, 8));
+}
+
+
+.theme33 #cv {
+  width: 20%;
+  background-color: purple;
+  color: re;
+  padding: 8px 0px;
+  text-transform: uppercase;
+  margin-left: 40%;
+  margin-top: 20px;
+  border-color: purple;
+  border-radius: 5px;
+
+}
+
+.theme3data {
+  margin-top: 30px;
+  width: 80%;
+  border: 3px solid rgb(219, 61, 8);
+  border-radius: 25px;
+  margin-left: 10%;
+  background-color: rgb(117, 13, 228);
+  display: none;
+}
+
+.theme3data img {
+  margin-top: 30px;
+  height: 200px;
+  width: 200px;
+  border: 2px solid rgb(219, 61, 8);
+  border-radius: 50%;
+  margin-left: 40%;
+}
+
+.theme3data h5 {
+  text-transform: uppercase;
+  margin-left: 10%;
+  padding: 2px;
+  font-size: 20px;
+  margin-top: 30px;
+  color: rgb(219, 61, 8);
+
+}
+
+.theme3data span {
+  color: white;
+
 }
